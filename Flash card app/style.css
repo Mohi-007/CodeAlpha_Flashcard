@@ -1,0 +1,59 @@
+body {
+  background-image: url("aqua.jpg");
+  background-size: cover;
+  background-position: cover;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgb(134, 207, 244);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.flashcard {
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px;
+  margin: 20px auto;
+}
+#userAnswer {
+  margin-top: 10px;
+  padding: 8px;
+  width: 80%;
+}
+#checkAnswerBtn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 1em;
+}
+#result {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.controls button,
+.editor button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 1em;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.controls button:hover,
+.editor button:hover {
+  background-color: #315f86;
+}
+.editor input {
+  width: 90%;
+  margin: 5px 0;
+  padding: 8px;
+}
